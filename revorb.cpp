@@ -16,10 +16,6 @@
 * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 */
-
-// https://github.com/gcp/libogg
-// https://github.com/xiph/vorbis
-
 #include "revorb.h"
 
 bool Failed = false;
