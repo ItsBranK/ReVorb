@@ -1,5 +1,5 @@
 /*
-* REVORB - Recomputes page granule positions in Ogg Vorbis files.
+* ReVorb - Recomputes page granule positions in Ogg Vorbis files.
 *   version 0.2 (2008/06/29)
 *
 * Copyright (c) 2008, Jiri Hruska <jiri.hruska@fud.cz>
@@ -16,7 +16,8 @@
 * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 */
-#include "revorb.h"
+
+#include "ReVorb.h"
 
 bool Failed = false;
 
@@ -139,10 +140,10 @@ bool CopyHeaders(FILE *fi, ogg_sync_state *si, ogg_stream_state *is, FILE *fo, o
 int32_t main(int32_t argumentCount, const char* arguments[])
 {
     if (argumentCount < 2) {
-        fprintf(stderr, "-= REVORB - <yirkha@fud.cz> 2008/06/29 =-\n");
+        fprintf(stderr, "-= ReVorb - <yirkha@fud.cz> 2008/06/29 =-\n");
         fprintf(stderr, "Recomputes page granule positions in Ogg Vorbis files.\n");
         fprintf(stderr, "Usage:\n");
-        fprintf(stderr, "  revorb <input.ogg> [output.ogg]\n");
+        fprintf(stderr, "  ReVorb <input.ogg> [output.ogg]\n");
         return 1;
     }
 

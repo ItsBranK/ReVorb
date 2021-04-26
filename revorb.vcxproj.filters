@@ -14,12 +14,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="revorb.cpp">
+    <ClCompile Include="ReVorb.cpp">
       <Filter>ReVorb</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="revorb.h">
+    <ClInclude Include="ReVorb.h">
       <Filter>ReVorb</Filter>
     </ClInclude>
     <ClInclude Include="libogg\ogg.h">

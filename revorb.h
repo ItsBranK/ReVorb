@@ -1,5 +1,5 @@
 /*
-* REVORB - Recomputes page granule positions in Ogg Vorbis files.
+* ReVorb - Recomputes page granule positions in Ogg Vorbis files.
 *   version 0.2 (2008/06/29)
 *
 * Copyright (c) 2008, Jiri Hruska <jiri.hruska@fud.cz>
