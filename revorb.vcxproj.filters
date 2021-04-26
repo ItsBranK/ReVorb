@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="libogg">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="libvorbis">
+      <UniqueIdentifier>{01241849-582d-47ba-bd5b-b3c3aabeecc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ReVorb">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="revorb.cpp">
+      <Filter>ReVorb</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="revorb.h">
+      <Filter>ReVorb</Filter>
+    </ClInclude>
+    <ClInclude Include="libogg\ogg.h">
+      <Filter>libogg</Filter>
+    </ClInclude>
+    <ClInclude Include="libogg\os_types.h">
+      <Filter>libogg</Filter>
+    </ClInclude>
+    <ClInclude Include="libvorbis\codec.h">
+      <Filter>libvorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="libvorbis\vorbisenc.h">
+      <Filter>libvorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="libvorbis\vorbisfile.h">
+      <Filter>libvorbis</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
